@@ -12,15 +12,7 @@ import {
 export default class HomeScreen extends Component {
     render() {
         return (
-            <View style={styles.container}>
-                <SafeAreaView style={styles.droidSafeArea}/>
-                    <View style={styles.titleBar}>
-                        <Text style={styles.titleText}>Aplicación Rastreador de la EEI</Text>
-                    </View>
-                    <TouchableOpacity style={styles.routeCard}>
-                        <Text>Localización de la EEI</Text>
-                    </TouchableOpacity>
-            </View>
+            
         );
     }
 }
@@ -42,12 +34,5 @@ const styles = StyleSheet.create({
         fontWeight: "bold",
         color: "white"
     },
-    routeCard: {
-        flex: 0.25,
-        marginLeft: 50,
-        marginRight: 50,
-        marginTop: 50,
-        borderRadius: 30,
-        backgroundColor: 'white'
-    }
+    
 });
